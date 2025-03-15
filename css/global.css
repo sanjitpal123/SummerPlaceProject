@@ -472,7 +472,7 @@ padding-bottom:10px;
 
 .navbar .navbar-toggler{
 box-shadow:none!important;
-background:#fbfbfb;
+background:black;
 border:none;
 border-radius:0;
 margin-top:0;
@@ -621,3 +621,13 @@ padding: 10px 15px;
 
  }
 
+ .custom-toggler {
+  border: 2px solid white !important; /* White border */
+  border-radius: 5px; /* Optional: rounded edges */
+  padding: 5px; /* Spacing around icon */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* White Icon */
+  background-color: transparent; /* Remove default Bootstrap background */
+}
